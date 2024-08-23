@@ -3,22 +3,22 @@
 layout: home
 
 hero:
-  name: "Nuxt Template"
+  name: "NxT"
   text: "A highly opinionated nuxt template"
-  tagline: My great project tagline
+  # tagline: A highly opinionated nuxt template
   actions:
     - theme: brand
-      text: Markdown Examples
-      link: /markdown-examples
+      text: Comece Agora
+      link: /instalation
     - theme: alt
-      text: API Examples
-      link: /api-examples
+      text: Por que Nuxt?
+      link: /introduction
 
 features:
-  - title: Feature A
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature B
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature C
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
+  - title: Acessível
+    details: Construído sobre HTML, CSS e JavaScript padrão, com uma API intuitiva e documentação de classe mundial.
+  - title: Performático
+    details: Sistema de renderização verdadeiramente reativo, otimizado pelo compilador, que raramente requer otimização manual.
+  - title: Versátil
+    details: Um ecossistema rico e incrementalmente adotável que se expande entre uma biblioteca e um framework completo.
 ---
