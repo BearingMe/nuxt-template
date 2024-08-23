@@ -8,7 +8,8 @@
     "generate": "nuxt generate",
     "preview": "nuxt preview",
     "postinstall": "nuxt prepare",
-    "prepare": "husky"
+    "prepare": "husky",
+    "typecheck": "nuxi typecheck"
   },
   "dependencies": {
     "nuxt": "^3.13.0",
@@ -23,6 +24,8 @@
     "husky": "^9.1.5",
     "lint-staged": "^15.2.9",
     "prettier": "3.3.3",
-    "prettier-plugin-tailwindcss": "^0.6.6"
+    "prettier-plugin-tailwindcss": "^0.6.6",
+    "typescript": "^5.5.4",
+    "vue-tsc": "^2.0.29"
   }
 }

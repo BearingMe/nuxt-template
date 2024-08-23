@@ -3,5 +3,5 @@ export default {
 
   "*.{json,css,scss,md}": ["prettier --write"],
 
-  "*.vue": ["eslint --fix", "prettier --write", "vue-tsc --noEmit --skipLibCheck"],
+  "*.vue": ["eslint --fix", "prettier --write"],
 };
