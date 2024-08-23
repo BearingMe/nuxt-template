@@ -20,6 +20,7 @@
     "@commitlint/cli": "^19.4.0",
     "@commitlint/config-conventional": "^19.2.2",
     "@nuxt/eslint": "^0.5.2",
+    "@nuxtjs/tailwindcss": "^6.12.1",
     "eslint-config-prettier": "^9.1.0",
     "husky": "^9.1.5",
     "lint-staged": "^15.2.9",
