@@ -3,6 +3,14 @@ export default defineNuxtConfig({
   compatibilityDate: "2024-04-03",
   devtools: { enabled: true },
   srcDir: "src/",
+
+  googleFonts: {
+    families: {
+      Inter: true,
+      Roboto: true,
+    },
+  },
+
   modules: [
     "@nuxt/eslint",
     "@nuxtjs/tailwindcss",
@@ -11,5 +19,6 @@ export default defineNuxtConfig({
     "@vueuse/nuxt",
     "@hebilicious/vue-query-nuxt",
     "@nuxt/icon",
+    "@nuxtjs/google-fonts",
   ],
 });
