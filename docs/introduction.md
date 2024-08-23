@@ -5,7 +5,7 @@ navigation:
   icon: i-ph-info-duotone
 ---
 
-## Introdução
+# Introdução
 
 [Nuxt.js](https://github.com/nuxt/nuxt) é um framework poderoso para construir aplicações [Vue.js](https://vuejs.org). Ele oferece muitas funcionalidades prontas para uso, como roteamento automático, renderização no lado do servidor e geração de sites estáticos. Neste documento, exploraremos por que escolhemos o Nuxt.js, por que desativamos a renderização no lado do servidor (SSR) e como o Nuxt.js pode beneficiar nosso projeto.
 
