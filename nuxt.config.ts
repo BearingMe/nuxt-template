@@ -10,5 +10,6 @@ export default defineNuxtConfig({
     "@pinia-plugin-persistedstate/nuxt",
     "@vueuse/nuxt",
     "@hebilicious/vue-query-nuxt",
+    "@nuxt/icon",
   ],
 });
