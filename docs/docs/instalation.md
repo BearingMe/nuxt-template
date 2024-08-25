@@ -51,4 +51,5 @@ Abra o navegador em <http://localhost:3000> para ver o projeto em execução. Vo
 
 Agora que você criou seu projeto Nuxt, está pronto para começar a construir sua aplicação.
 
-:read-more{title="Conceitos do Nuxt" to="/docs/guide/concepts"}
+> [!TIP] Dica
+> Se você está procurando um guia passo a passo, confira o [Guia de Início Rápido](/docs/guide/get-started).
