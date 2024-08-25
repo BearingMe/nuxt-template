@@ -22,63 +22,67 @@ const documentationItems = [
 const directoryItems = [
   {
     text: ".nuxt",
-    link: "/directory/.nuxt.html",
+    link: "/directory/00-dot-nuxt.html",
   },
   {
     text: ".output",
-    link: "/directory/.output.html",
+    link: "/directory/00-dot-output.html",
   },
   {
     text: "src/assets",
-    link: "/directory/assets.html",
+    link: "/directory/01-src-assets.html",
   },
   {
     text: "src/components",
-    link: "/directory/components.html",
+    link: "/directory/01-src-components.html",
   },
   {
     text: "src/composables",
-    link: "/directory/composables.html",
+    link: "/directory/01-src-composables.html",
   },
   {
     text: "src/layouts",
-    link: "/directory/layouts.html",
+    link: "/directory/01-src-layouts.html",
+  },
+  {
+    text: "src/lib",
+    link: "/directory/01-src-lib.html",
   },
   {
     text: "src/middleware",
-    link: "/directory/middleware.html",
+    link: "/directory/01-src-middleware.html",
   },
   {
     text: "src/pages",
-    link: "/directory/pages.html",
+    link: "/directory/01-src-pages.html",
   },
   {
     text: "src/public",
-    link: "/directory/public.html",
+    link: "/directory/01-src-public.html",
   },
   {
     text: "src/utils",
-    link: "/directory/utils.html",
+    link: "/directory/01-src-utils.html",
   },
   {
     text: "src/app.vue",
-    link: "/directory/app-vue.html",
+    link: "/directory/02-app-vue.html",
   },
   {
     text: "src/error.vue",
-    link: "/directory/error-vue.html",
+    link: "/directory/02-error-vue.html",
   },
   {
     text: "app.config.ts",
-    link: "/directory/app-config-ts.html",
+    link: "/directory/02-app-config-ts.html",
   },
   {
     text: "nuxt.config.ts",
-    link: "/directory/nuxt-config-ts.html",
+    link: "/directory/02-nuxt-config-ts.html",
   },
   {
     text: ".env",
-    link: "/directory/.env.html",
+    link: "/directory/03-dot-env.html",
   },
 ];
 
