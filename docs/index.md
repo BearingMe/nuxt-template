@@ -9,10 +9,10 @@ hero:
   actions:
     - theme: brand
       text: Comece Agora
-      link: /instalation
+      link: /docs/instalation
     - theme: alt
       text: Por que Nuxt?
-      link: /introduction
+      link: /docs/introduction
 
 features:
   - title: Acessível
