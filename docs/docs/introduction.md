@@ -1,17 +1,9 @@
----
-title: Introdução
-description: O objetivo do Nuxt é tornar o desenvolvimento web intuitivo e eficiente, com uma ótima Experiência do Desenvolvedor em mente.
-navigation:
-  icon: i-ph-info-duotone
----
-
 # Introdução
 
 [Nuxt.js](https://github.com/nuxt/nuxt) é um framework poderoso para construir aplicações [Vue.js](https://vuejs.org). Ele oferece muitas funcionalidades prontas para uso, como roteamento automático, renderização no lado do servidor e geração de sites estáticos. Neste documento, exploraremos por que escolhemos o Nuxt.js, por que desativamos a renderização no lado do servidor (SSR) e como o Nuxt.js pode beneficiar nosso projeto.
 
-::tip
-Se você quiser experimentar o Nuxt em seu navegador, você pode [testá-lo](/docs/getting-started/installation#play-online).
-::
+> [!TIP] Dica
+> Se você quiser experimentar o Nuxt em seu navegador, você pode [testá-lo online](https://nuxt.com/docs/getting-started/installation#play-online).
 
 ## Por que Nuxt?
 
@@ -34,7 +26,7 @@ Mesmo assim, no final, tivemos que fazer uma escolha, então decidimos torná-la
 
 Nuxt usa convenções e uma estrutura de diretórios opinativa para automatizar tarefas repetitivas e permitir que os desenvolvedores se concentrem em adicionar funcionalidades. O arquivo de configuração ainda pode personalizar e sobrescrever seus comportamentos padrão.
 
-- **Roteamento baseado em arquivos:** defina rotas com base na estrutura do seu [diretório `pages/`](/docs/guide/directory-structure/pages). Isso pode facilitar a organização de sua aplicação e evitar a necessidade de configuração manual de rotas.
+- **Roteamento baseado em arquivos:** defina rotas com base na estrutura do seu [diretório `pages/`](/dir/pages.html). Isso pode facilitar a organização de sua aplicação e evitar a necessidade de configuração manual de rotas.
 - **Divisão de código:** o Nuxt divide automaticamente seu código em pedaços menores, o que pode ajudar a reduzir o tempo de carregamento inicial de sua aplicação.
 - **Importações automáticas:** escreva composables e componentes Vue em seus respectivos diretórios e use-os sem precisar importá-los, com os benefícios de tree-shaking e pacotes JS otimizados.
 - **Suporte TypeScript sem configuração:** escreva código tipado sem precisar aprender TypeScript, com nossos tipos gerados automaticamente e `tsconfig.json`.
@@ -56,7 +48,8 @@ No geral, a renderização no lado do servidor pode proporcionar uma experiênci
 
 Como o Nuxt é um framework versátil, ele oferece a possibilidade de renderizar toda sua aplicação de forma estática com `nuxt generate`, desativar o SSR globalmente com a opção `ssr: false` ou aproveitar a renderização híbrida configurando a opção `routeRules`.
 
-:read-more{title="Modos de renderização do Nuxt" to="/docs/guide/concepts/rendering"}
+> [!TIP] Dica
+> Se você deseja saber mais sobre como o Nuxt lida com a renderização no lado do servidor, você pode ler mais sobre [como o Nuxt funciona](https://nuxt.com/docs/guide/concepts/rendering).
 
 ## Por que desativar o SSR?
 
@@ -71,4 +64,5 @@ Embora o Nuxt.js ofereça renderização no lado do servidor (SSR) por padrão, 
 
 Uma aplicação Nuxt pode ser implantada em um servidor Node ou Deno, pré-renderizada para ser hospedada em ambientes estáticos, ou implantada em provedores serverless e de edge.
 
-:read-more{title="Seção de implantação" to="/docs/getting-started/deployment"}
+> [!TIP] Dica
+> Se você deseja saber mais sobre como implantar uma aplicação Nuxt em produção, você pode ler mais sobre [como implantar uma aplicação Nuxt](https://nuxt.com/docs/getting-started/deployment).
