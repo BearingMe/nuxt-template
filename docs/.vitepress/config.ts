@@ -10,7 +10,7 @@ const documentationItems = [
     link: "/docs/instalation.html",
   },
   {
-    text: "Arquitetura",
+    text: "Arquitetura", // incluir autoimports
     link: "/docs/_.html",
   },
   {
@@ -66,11 +66,11 @@ const directoryItems = [
   },
   {
     text: "src/app.vue",
-    link: "/directory/02-app-vue.html",
+    link: "/directory/01-src-app-vue.html",
   },
   {
     text: "src/error.vue",
-    link: "/directory/02-error-vue.html",
+    link: "/directory/01-src-error-vue.html",
   },
   {
     text: "app.config.ts",
@@ -126,6 +126,10 @@ export default defineConfig({
   description: "A highly opinionated nuxt template",
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
+    search: {
+      provider: "local",
+    },
+
     nav: [
       { text: "Home", link: "/" },
       {
