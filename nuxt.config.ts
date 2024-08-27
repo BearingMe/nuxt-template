@@ -31,5 +31,6 @@ export default defineNuxtConfig({
     "@nuxt/icon",
     "@nuxtjs/google-fonts",
     "@primevue/nuxt-module",
+    "@vee-validate/nuxt",
   ],
 });
