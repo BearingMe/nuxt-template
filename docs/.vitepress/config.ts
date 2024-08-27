@@ -15,7 +15,7 @@ const documentationItems = [
   },
   {
     text: "Dependências",
-    link: "/docs/_.html",
+    link: "/docs/dependencies.html",
   },
 ];
 
@@ -165,7 +165,7 @@ export default defineConfig({
       },
     ],
 
-    socialLinks: [{ icon: "github", link: "https://github.com/vuejs/vitepress" }],
+    socialLinks: [{ icon: "github", link: "https://github.com/BearingMe/nuxt-template/" }],
   },
 
   base: "/nuxt-template/",
