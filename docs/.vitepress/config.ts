@@ -10,12 +10,12 @@ const documentationItems = [
     link: "/docs/instalation.html",
   },
   {
-    text: "Arquitetura", // incluir autoimports
-    link: "/docs/_.html",
+    text: "Arquitetura",
+    link: "/docs/architecture.html",
   },
   {
     text: "Dependências",
-    link: "/docs/_.html",
+    link: "/docs/dependencies.html",
   },
 ];
 
@@ -130,13 +130,16 @@ export default defineConfig({
       provider: "local",
     },
 
+    outline: false,
+
     nav: [
       { text: "Home", link: "/" },
       {
         text: "Docs",
+        activeMatch: "^/(docs)|(directory)|(style-guide)/",
         items: [
-          { text: "Documentação", link: "/docs/introduction.html" },
-          { text: "Estrutura de arquivos", link: "/directory/.nuxt.html" },
+          { text: "Documentação", link: "/docs/introduction" },
+          { text: "Estrutura de arquivos", link: "/directory/00-dot-nuxt" },
           { text: "Guia de Estilo", link: "/style-guide/" },
         ],
       },
@@ -162,6 +165,8 @@ export default defineConfig({
       },
     ],
 
-    socialLinks: [{ icon: "github", link: "https://github.com/vuejs/vitepress" }],
+    socialLinks: [{ icon: "github", link: "https://github.com/BearingMe/nuxt-template/" }],
   },
+
+  base: "/nuxt-template/",
 });
