@@ -10,8 +10,8 @@ const documentationItems = [
     link: "/docs/instalation.html",
   },
   {
-    text: "Arquitetura", // incluir autoimports
-    link: "/docs/_.html",
+    text: "Arquitetura",
+    link: "/docs/architecture.html",
   },
   {
     text: "Dependências",
