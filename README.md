@@ -1,75 +1,91 @@
-# Nuxt 3 Minimal Starter
+# NxT - Nuxt Template
 
-Look at the [Nuxt 3 documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
+NxT é um template para projetos Nuxt.js com configurações pré-definidas para facilitar o desenvolvimento de aplicações web. Para mais informações consulte nossa [documentação](https://bearingme.github.io/nuxt-template/).
 
-## Setup
+## Instalação
 
-Make sure to install the dependencies:
+### Pré-requisitos
+
+- **Node.js** - [`v18.0.0`](https://nodejs.org/en) ou mais recente
+- **pnpm** - [`v6.0.0`](https://pnpm.io/) ou mais recente
+- **Editor de texto** - Recomendamos o [Visual Studio Code](https://code.visualstudio.com/) com a [extensão oficial Vue](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (anteriormente conhecida como Volar)
+- **Terminal** - Para executar comandos Nuxt
+
+### Download do Projeto
+
+Abra um terminal (se você estiver usando o [Visual Studio Code](https://code.visualstudio.com), você pode abrir um [terminal integrado](https://code.visualstudio.com/docs/editor/integrated-terminal)) e use o seguinte comando para copiar o projeto:
 
 ```bash
-# npm
-npm install
+npx degit https://github.com/BearingMe/nuxt-template
+cd nuxt-template
+git init
+```
 
-# pnpm
+Caso você não tenha o `degit` instalado, você pode clonar o repositório e remover a pasta `.git`:
+
+```bash
+git clone https://github.com/BearingMe/nuxt-template
+cd nuxt-template
+rm -rf .git
+git init
+```
+
+### Instalação de Dependências
+
+Após copiar o projeto, instale as dependências. Você pode usar qualquer gerenciador de pacotes, porém recomendamos o `pnpm`:
+
+```bash
 pnpm install
-
-# yarn
-yarn install
-
-# bun
-bun install
 ```
 
-## Development Server
-
-Start the development server on `http://localhost:3000`:
+Para iniciar o servidor de desenvolvimento, use o seguinte comando:
 
 ```bash
-# npm
-npm run dev
-
-# pnpm
 pnpm run dev
-
-# yarn
-yarn dev
-
-# bun
-bun run dev
 ```
 
-## Production
+Abra o navegador em `http://localhost:3000` para ver o projeto em execução. Você pode começar a editar o projeto em `src`.
 
-Build the application for production:
+## Dependências
 
-```bash
-# npm
-npm run build
+Você pode encontrar a lista completa de dependências e suas descrições na [documentação](https://bearingme.github.io/nuxt-template/docs/dependencies.html). Os links abaixo redirecionam para a documentação oficial de cada dependência:
 
-# pnpm
-pnpm run build
+- [`axios`](https://axios-http.com/)
+- [`zod`](https://zod.dev/)
+- [`@nuxt/icon`](https://nuxt.com/modules/icon)
+- [`@nuxtjs/google-fonts`](https://google-fonts.nuxtjs.org/)
+- [`@pinia/nuxt`](https://pinia.vuejs.org/)
+- [`@pinia-plugin-persistedstate/nuxt`](https://prazdevs.github.io/pinia-plugin-persistedstate/)
+- [`@tanstack/vue-query`](https://tanstack.com/query/latest/docs/framework/react/overview)
+- [`@vueuse/nuxt`](https://vueuse.org/guide/)
+- [`@nuxtjs/tailwindcss`](https://tailwindcss.nuxtjs.org/)
+- [`@nuxt/vee-validate`](https://nuxt.com/modules/vee-validate)
+- [`@nuxt/prime-vue`](https://www.primefaces.org/)
+- [`@vee-validate/zod`](https://vee-validate.logaretm.com/v4/guide/integrations/zod.html)
 
-# yarn
-yarn build
+## Estrutura de Pastas
 
-# bun
-bun run build
-```
+A estrutura de pastas segue o padrão do Nuxt.js, com algumas adições e modificações para facilitar o desenvolvimento. A seguir, uma breve descrição de cada pasta:
 
-Locally preview production build:
+> [!TIP] DICA
+> Para mais informações sobre a estrutura de pastas do Nuxt.js, consulte a [documentação oficial](https://nuxt.com/docs/guide/directory-structure/nuxt).
 
-```bash
-# npm
-npm run preview
+- `src/assets` - Arquivos estáticos como imagens, fontes e estilos globais
+- `src/components` - Componentes Vue reutilizáveis
+- `src/composables` - Composables para compartilhar lógica entre componentes
+- `src/layouts` - Layouts globais da aplicação
+- `src/middleware` - Middlewares para controlar o acesso às rotas
+- `src/pages` - Páginas da aplicação
+- `src/plugins` - Plugins Nuxt.js e de terceiros
+- `src/utils` - Funções utilitárias e constantes
 
-# pnpm
-pnpm run preview
+Outras pastas são ou seram inclusas conforme a necessidade do projeto.
 
-# yarn
-yarn preview
+- `src/api` - Serviços para comunicação com APIs
+- `src/queries` - Queries para comunicação com APIs
+- `src/lib` - Bibliotecas e funções utilitárias
+- `src/schemas` - Esquemas de validação de dados
 
-# bun
-bun run preview
-```
+## Contribuição
 
-Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
+Se você deseja contribuir com o projeto, por favor leia o nosso [guia de contribuição](https://bearingme.github.io/nuxt-template/docs/contributing.html) para mais informações.
