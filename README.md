@@ -48,7 +48,7 @@ Abra o navegador em `http://localhost:3000` para ver o projeto em execução. Vo
 
 ## Dependências
 
-Você pode encontrar a lista completa de dependências e suas descrições na [documentação](https://bearingme.github.io/nuxt-template/docs/dependencies.html). Os links abaixo redirecionam para a documentação oficial de cada dependência:
+Você pode encontrar a [lista completa de dependências](https://bearingme.github.io/nuxt-template/docs/dependencies.html) e suas descrições na documentação. Os links abaixo redirecionam para a documentação oficial de cada dependência:
 
 - [`axios`](https://axios-http.com/)
 - [`zod`](https://zod.dev/)
@@ -67,8 +67,8 @@ Você pode encontrar a lista completa de dependências e suas descrições na [d
 
 A estrutura de pastas segue o padrão do Nuxt.js, com algumas adições e modificações para facilitar o desenvolvimento. A seguir, uma breve descrição de cada pasta:
 
-> [!TIP] DICA
-> Para mais informações sobre a estrutura de pastas do Nuxt.js, consulte a [documentação oficial](https://nuxt.com/docs/guide/directory-structure/nuxt).
+> [!TIP]
+> Para mais informações sobre a estrutura de pastas, consulte a documentação do [Nuxt](https://nuxt.com/docs/guide/directory-structure/nuxt).
 
 - `src/assets` - Arquivos estáticos como imagens, fontes e estilos globais
 - `src/components` - Componentes Vue reutilizáveis
@@ -88,4 +88,4 @@ Outras pastas são ou seram inclusas conforme a necessidade do projeto.
 
 ## Contribuição
 
-Se você deseja contribuir com o projeto, por favor leia o nosso [guia de contribuição](https://bearingme.github.io/nuxt-template/docs/contributing.html) para mais informações.
+Se você deseja contribuir com o projeto, por favor leia o nosso [guia de contribuição](https://github.com/BearingMe/nuxt-template/blob/main/CONTRIBUTING.md) para mais informações.
