@@ -26,7 +26,7 @@ Mesmo assim, no final, tivemos que fazer uma escolha, então decidimos torná-la
 
 Nuxt usa convenções e uma estrutura de diretórios opinativa para automatizar tarefas repetitivas e permitir que os desenvolvedores se concentrem em adicionar funcionalidades. O arquivo de configuração ainda pode personalizar e sobrescrever seus comportamentos padrão.
 
-- **Roteamento baseado em arquivos:** defina rotas com base na estrutura do seu [diretório `pages/`](/dir/pages.html). Isso pode facilitar a organização de sua aplicação e evitar a necessidade de configuração manual de rotas.
+- **Roteamento baseado em arquivos:** defina rotas com base na estrutura do seu [diretório `pages/`](/directory/01-src-pages.html). Isso pode facilitar a organização de sua aplicação e evitar a necessidade de configuração manual de rotas.
 - **Divisão de código:** o Nuxt divide automaticamente seu código em pedaços menores, o que pode ajudar a reduzir o tempo de carregamento inicial de sua aplicação.
 - **Importações automáticas:** escreva composables e componentes Vue em seus respectivos diretórios e use-os sem precisar importá-los, com os benefícios de tree-shaking e pacotes JS otimizados.
 - **Suporte TypeScript sem configuração:** escreva código tipado sem precisar aprender TypeScript, com nossos tipos gerados automaticamente e `tsconfig.json`.

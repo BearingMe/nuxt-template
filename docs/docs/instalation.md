@@ -1,9 +1,3 @@
----
-title: "Installation"
-description: "Get started with Nuxt quickly with our online starters or start locally with your terminal."
-navigation.icon: i-ph-play-duotone
----
-
 # Instalação
 
 ### Pré-requisitos
@@ -45,11 +39,8 @@ Para iniciar o servidor de desenvolvimento, use o seguinte comando:
 pnpm run dev
 ```
 
-Abra o navegador em <http://localhost:3000> para ver o projeto em execução. Você pode começar a editar o projeto em `src`.
+Abra o navegador em `http://localhost:3000` para ver o projeto em execução. Você pode começar a editar o projeto em `src`.
 
 ### Próximos Passos
 
 Agora que você criou seu projeto Nuxt, está pronto para começar a construir sua aplicação.
-
-> [!TIP] Dica
-> Se você está procurando um guia passo a passo, confira o [Guia de Início Rápido](/docs/guide/get-started).
