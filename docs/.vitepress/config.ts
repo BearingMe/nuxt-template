@@ -130,13 +130,16 @@ export default defineConfig({
       provider: "local",
     },
 
+    outline: false,
+
     nav: [
       { text: "Home", link: "/" },
       {
         text: "Docs",
+        activeMatch: "^/(docs)|(directory)|(style-guide)/",
         items: [
-          { text: "Documentação", link: "/docs/introduction.html" },
-          { text: "Estrutura de arquivos", link: "/directory/.nuxt.html" },
+          { text: "Documentação", link: "/docs/introduction" },
+          { text: "Estrutura de arquivos", link: "/directory/00-dot-nuxt" },
           { text: "Guia de Estilo", link: "/style-guide/" },
         ],
       },
