@@ -88,4 +88,4 @@ Outras pastas são ou seram inclusas conforme a necessidade do projeto.
 
 ## Contribuição
 
-Se você deseja contribuir com o projeto, por favor leia o nosso [guia de contribuição](https://github.com/BearingMe/nuxt-template/blob/main/CONTRIBUTING.md) para mais informações.
+Se você deseja contribuir com o projeto, por favor leia o nosso [guia de contribuição](https://github.com/BearingMe/nuxt-template/blob/main/CONTRIBUTING.md.md) para mais informações.
