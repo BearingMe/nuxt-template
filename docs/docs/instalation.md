@@ -12,13 +12,6 @@
 Abra um terminal (se você estiver usando o [Visual Studio Code](https://code.visualstudio.com), você pode abrir um [terminal integrado](https://code.visualstudio.com/docs/editor/integrated-terminal)) e use o seguinte comando para copiar o projeto:
 
 ```bash
-npx degit https://github.com/BearingMe/nuxt-template
-cd nuxt-template
-```
-
-Caso você não tenha o `degit` instalado, você pode clonar o repositório e remover a pasta `.git`:
-
-```bash
 git clone https://github.com/BearingMe/nuxt-template
 cd nuxt-template
 rm -rf .git
