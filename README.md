@@ -16,18 +16,20 @@ NxT é um template para projetos Nuxt.js com configurações pré-definidas para
 Abra um terminal (se você estiver usando o [Visual Studio Code](https://code.visualstudio.com), você pode abrir um [terminal integrado](https://code.visualstudio.com/docs/editor/integrated-terminal)) e use o seguinte comando para copiar o projeto:
 
 ```bash
-npx degit https://github.com/BearingMe/nuxt-template
-cd nuxt-template
-git init
-```
-
-Caso você não tenha o `degit` instalado, você pode clonar o repositório e remover a pasta `.git`:
-
-```bash
+# clonar o repositório
 git clone https://github.com/BearingMe/nuxt-template
 cd nuxt-template
-rm -rf .git
+
+# remover o histórico de commits
+rm -r .git
 git init
+git branch -m main # (recomendado) para garantir compatibilidade com futuras pipelines
+git add .
+git commit -m "initial commit"
+git switch -c dev # (recomendado) começar o trabalho à partir da dev
+
+# adicionar os hooks do husky
+pnpm run prepare
 ```
 
 ### Instalação de Dependências
