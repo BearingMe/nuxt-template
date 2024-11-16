@@ -1,5 +1,3 @@
-import Aura from "@primevue/themes/aura";
-
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
   compatibilityDate: "2024-04-03",
@@ -13,12 +11,16 @@ export default defineNuxtConfig({
     },
   },
 
-  primevue: {
-    options: {
-      theme: {
-        preset: Aura,
-      },
-    },
+  colorMode: {
+    preference: "system",
+    fallback: "light",
+    hid: "nuxt-color-mode-script",
+    globalName: "__NUXT_COLOR_MODE__",
+    componentName: "ColorScheme",
+    classPrefix: "",
+    classSuffix: "-mode",
+    storage: "localStorage",
+    storageKey: "nuxt-color-mode",
   },
 
   modules: [
@@ -30,7 +32,8 @@ export default defineNuxtConfig({
     "@hebilicious/vue-query-nuxt",
     "@nuxt/icon",
     "@nuxtjs/google-fonts",
-    "@primevue/nuxt-module",
     "@vee-validate/nuxt",
+    "shadcn-nuxt",
+    "@nuxtjs/color-mode",
   ],
 });
