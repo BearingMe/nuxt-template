@@ -28,8 +28,8 @@ git add .
 git commit -m "initial commit"
 git switch -c dev # (recomendado) começar o trabalho à partir da dev
 
-# adicionar os hooks do husky
-pnpm run prepare
+# baixar pacotes e adicionar os hooks do husky
+pnpm i
 ```
 
 ### Instalação de Dependências
