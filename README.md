@@ -27,9 +27,6 @@ git branch -m main # (recomendado) para garantir compatibilidade com futuras pip
 git add .
 git commit -m "initial commit"
 git switch -c dev # (recomendado) começar o trabalho à partir da dev
-
-# baixar pacotes e adicionar os hooks do husky
-pnpm i
 ```
 
 ### Instalação de Dependências
