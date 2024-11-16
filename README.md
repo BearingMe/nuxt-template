@@ -78,7 +78,7 @@ A estrutura de pastas segue o padrão do Nuxt.js, com algumas adições e modifi
 - `src/plugins` - Plugins Nuxt.js e de terceiros
 - `src/utils` - Funções utilitárias e constantes
 
-Outras pastas são ou seram inclusas conforme a necessidade do projeto.
+Outras pastas são ou serão inclusas conforme a necessidade do projeto.
 
 - `src/api` - Serviços para comunicação com APIs
 - `src/queries` - Queries para comunicação com APIs
