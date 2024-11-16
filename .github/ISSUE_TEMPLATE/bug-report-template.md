@@ -1,23 +1,26 @@
 ---
-name: Bug Report Template
-about: Template used for reporting bugs and issues.
-title: 'fix: <your_bug_here>'
+name: Template de relatório de bugs
+about: Use este modelo para relatar um bug
+title: "fix: <seu_bug_aqui>"
 labels: bug
-
 ---
 
-### Bug Description:
+### Descrição:
 
-[Provide a clear and concise description of the issue]
+[Descreva de forma clara e concisa o problema]
 
-### Steps do reproduce:
+### Passos para reproduzir:
 
-[Optional: List steps taken to reproduce the behavior]
+[Opcional: Liste os passos tomados para reproduzir o comportamento]
 
-### Priority:
+### Comportamento esperado:
 
-[Set priority level using labels]
+[Descreva o comportamento esperado]
 
-### Resources:
+### Prioridade:
 
-[Optional: Link to related issues or pull requests if applicable]
+[Escolha o nível de prioridade usando as labels]
+
+### Recursos:
+
+[Opcional: Link para issues ou pull requests relacionados, se aplicável]

@@ -1,23 +1,22 @@
 ---
-name: Documentation Request Template
-about: Request new documentation or updates to existing documentation.
-title: 'docs: <your_doc_here>'
+name: Template de Solicitação de Documentação
+about: Solicitar nova documentação ou atualizações para a documentação existente.
+title: "docs: <sua_doc_aqui>"
 labels: documentation
-
 ---
 
-### Description:
+### Descrição:
 
-[Explain the need for this documentation and its importance]
+[Explique a necessidade desta documentação e sua importância]
 
-### Details Needed:
+### Detalhes Necessários:
 
-[List specific details or information that should be included in the documentation]
+[Liste detalhes específicos ou informações que devem ser incluídas na documentação]
 
-### Priority:
+### Prioridade:
 
-[Set priority level using labels]
+[Defina o nível de prioridade usando rótulos]
 
-### Resources:
+### Recursos:
 
-[Optional: Link to related materials or examples]
+[Opcional: Link para materiais relacionados ou exemplos]

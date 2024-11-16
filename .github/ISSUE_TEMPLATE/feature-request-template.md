@@ -1,27 +1,26 @@
 ---
-name: Feature Request Template
-about: Template to propose new features or enhancements for consideration
-title: 'feat: <your_feature_here>'
+name: Template de Solicitação de Funcionalidade
+about: Template para propor novas funcionalidades ou melhorias para consideração
+title: "feat: <sua_funcionalidade_aqui>"
 labels: enhancement
-
 ---
 
-### Description:
+### Descrição:
 
-[Provide a clear and concise description of the feature request]
+[Forneça uma descrição clara e concisa da solicitação de recurso]
 
-### Reason:
+### Razão:
 
-[Explain the reason for this feature request and its benefits]
+[Explique o motivo desta solicitação de recurso e seus benefícios]
 
-### Implementation Details:
+### Detalhes de Implementação:
 
-[Optional: Describe any specific details or considerations for implementing this feature]
+[Opcional: Descreva quaisquer detalhes específicos ou considerações para implementar este recurso]
 
-### Priority:
+### Prioridade:
 
-[Set priority level using labels]
+[Defina o nível de prioridade usando rótulos]
 
-### Resources:
+### Recursos:
 
-[Optional: Link to related discussions, user stories, or examples]
+[Opcional: Link para discussões relacionadas, histórias de usuário ou exemplos]
