@@ -23,6 +23,11 @@ export default defineNuxtConfig({
     storageKey: "nuxt-color-mode",
   },
 
+  shadcn: {
+    prefix: "Ui",
+    componentDir: "src/components/ui",
+  },
+
   modules: [
     "@nuxt/eslint",
     "@nuxtjs/tailwindcss",
