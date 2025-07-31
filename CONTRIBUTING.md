@@ -34,11 +34,11 @@ Dito isso, podemos resumir o fluxo do GitHub da seguinte forma:
 
 Embora o `GitHub Flow` seja simples, ele apresenta alguns pontos sensíveis entre o pull request e o merge.
 
-Imagine que você esteja trabalhando em um projeto com várias outras pessoas. Após clonar o repositório, criar sua branch e realizar as modificações, você decide, no seu repositório local, fazer o merge diretamente na `dev` e, em seguida, sincronizar com o GitHub. Como isso é diferente de alterar a `dev` diretamente?
+Imagine que você esteja trabalhando em um projeto com várias outras pessoas. Após clonar o repositório, criar sua branch e realizar as modificações, você decide, no seu repositório local, fazer o merge diretamente na `dev` e, em seguida, sincronizar com o GitHub. Como isso é diferente de fazer um merge pelo GitHub?
 
-A verdade é que, para quem faz a revisão ou gerencia o repositório, essa diferença é inexistente. Ao adotar essa prática, você perde a oportunidade de ter seu código revisado, pode causar problemas com o CI/CD, prejudica o histórico de commits, se obriga a resolver conflitos de código sozinho, reduz a transparência, e, em alguns casos, pode simplesmente ter seu push bloqueado.
+Ao adotar essa prática, você perde a oportunidade de ter seu código revisado, pode causar problemas com o CI/CD, prejudica o histórico de commits, se obriga a resolver conflitos de código sozinho, reduz a transparência, e, em alguns casos, pode simplesmente ter seu push bloqueado.
 
-Outro ponto importante é a revisão. Embora seja comum que não haja nenhuma revisão, quando ela ocorre, especialmente em times que não estão familiarizados com o processo, é normal surgirem conflitos. Esses conflitos podem ser causados por diversas razões, como regras rígidas, demora na revisão ou falta de disponibilidade para resolver problemas. Nesse contexto, dois pontos são importantes:
+Outro ponto importante é a revisão. Embora seja comum que não haja nenhuma revisão, quando ela ocorre, especialmente em times que não estão familiarizados com o processo, é normal surgirem conflitos. Esses conflitos podem ser causados por diversas razões, como regras rígidas, demora na revisão ou falta de disponibilidade para resolver problemas. Nesse contexto, é bom ter duas coisas em mente:
 
 - O pull request é atualizado automaticamente sempre que você modifica sua branch. Isso significa que, caso seu código não passe na revisão, basta fazer as alterações necessárias e o pull request será atualizado, sem a necessidade de reenvio.
 - O revisor não é responsável por corrigir o código, mas sim por impedir que código problemático seja introduzido. Às vezes, o erro é simples, como um arquivo fora de lugar ou um nome mal escrito, e pode ser tentador fazer o merge e corrigir com outro commit. No entanto, isso não deve ser feito, pois incentiva maus hábitos e polui o histórico do código.
